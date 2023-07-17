@@ -22,3 +22,12 @@
 // truthy and falsy values in javascript, all numerical values are truthy except for   zero.
 
 // logical operators - &&, ||, ! - and, or , not.
+
+// ternary operators - condition? expIfTrue: expIfFalse
+
+// arrays and objects - are data structures.
+    // Array Methods - push, pop, shifty, unshift
+
+// concat - used to combine arrays.
+
+// object - a collection of properties.
