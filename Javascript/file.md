@@ -31,3 +31,5 @@
 // concat - used to combine arrays.
 
 // object - a collection of properties.
+
+// loops - for loop, infinite loop, 
