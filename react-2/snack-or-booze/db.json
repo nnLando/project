@@ -1,0 +1,55 @@
+{
+  "drinks": [
+    {
+      "id": "martini",
+      "name": "Martini",
+      "description": "An ice-cold, refreshing classic.",
+      "recipe": "Mix 3 parts vodka & 1 part dry vermouth.",
+      "serve": "Serve very cold, straight up."
+    },
+    {
+      "name": "drink2",
+      "description": "two",
+      "recipe": "two",
+      "serve": "two",
+      "id": "y7d3rhI"
+    },
+    {
+      "name": "Fanta",
+      "description": "Fanta Orange is a tongue-tingling & delicious sparkling orange fruit drink that surprises with its intense and refreshing orange taste. This playful fizzy fruit flavoured soda, delivers a bold and bubbly mouthfeel and naturally stimulates senses",
+      "recipe": "Carbonated Water, Sugar, Acidifier: Citric Acid, Emulsifier: Gum Arabic, Preservative: Potassium Sorbate, Acidity Regulator: Sodium Citrate, Caffeine, Natural Identical Citrus Flavors, Antioxidants: Ascorbic Acid and Calcium Disodium (EDTA), Colour: Tartrazine*",
+      "serve": "Serve very cold, straight up",
+      "id": "wkvruPJ"
+    }
+  ],
+  "snacks": [
+    {
+      "id": "nachos",
+      "name": "Nachos",
+      "description": "An American classic!",
+      "recipe": "Cover expensive, organic tortilla chips with Cheez Whiz.",
+      "serve": "Serve in a hand-thrown ceramic bowl, garnished with canned black olives"
+    },
+    {
+      "name": "snack2",
+      "description": "two",
+      "recipe": "two",
+      "serve": "two",
+      "id": "shL270w"
+    },
+    {
+      "name": "snack3",
+      "description": "three",
+      "recipe": "three",
+      "serve": "three",
+      "id": "yt-jt8z"
+    },
+    {
+      "name": "Pasta crunchy",
+      "description": "delicious",
+      "recipe": "abc",
+      "serve": "good serving",
+      "id": "8D9jgIQ"
+    }
+  ]
+}
