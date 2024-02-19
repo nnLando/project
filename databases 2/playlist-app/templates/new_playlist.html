@@ -1,0 +1,29 @@
+{% extends 'base.html' %}
+{% from 'bootstrap5/form.html' import render_form %}
+{% block content %}
+<form method="post" class="needs-validation" >
+    {{ form.csrf_token }}
+    <div class="mb-3">
+        <label for="title" class="form-label">Name</label>
+        <input type="text" class="form-control" name="name" id="title"
+               placeholder="Playlist title"
+               value="{{ request.form['name'] }}" required>
+        <div class="invalid-feedback">
+            Please provide a playlist title.
+        </div>
+    </div>
+
+    <div class="mb-3">
+        <label for="content" class="form-label"> description</label>
+        <textarea class="form-control" name="description" id="content"
+                  placeholder="Playlist description"
+                  rows="15" required>{{ request.form['description'] }}</textarea>
+        <div class="invalid-feedback">
+            Please provide playlist content.
+        </div>
+    </div>
+    
+    <button type="submit" class="btn btn-primary mb-3">Add Playlist</button>
+</form>
+
+{% endblock %}

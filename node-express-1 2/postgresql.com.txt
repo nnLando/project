@@ -12,7 +12,7 @@
   <meta property="og:url" content="https://www.postgresql.org/" />
   <meta property="og:type" content="article" />
   <meta property="article:author" content="PostgreSQL Global Development Group" />
-  <meta property="article:published_time" content="2024-02-11T16:06:01.824945" />
+  <meta property="article:published_time" content="2024-02-19T15:45:34.532342" />
   <meta property="og:image" content="https://www.postgresql.org/media/img/about/press/elephant.png" />
   <meta property="og:title" content="PostgreSQL" />
   <meta property="og:description" content="The world&#x27;s most advanced open source database." />
@@ -316,6 +316,27 @@
         <ul class="divided">
           
             <li>
+              <h3><a href="/about/news/pgmoneta-09-2810/">pgmoneta 0.9</a></h3>
+              <ul class="meta">
+                <li><i class="far fa-clock"></i>&nbsp;2024-02-16 by pgmoneta</li>
+              </ul>
+            </li>
+          
+            <li>
+              <h3><a href="/about/news/pgexporter-05-2809/">pgexporter 0.5</a></h3>
+              <ul class="meta">
+                <li><i class="far fa-clock"></i>&nbsp;2024-02-16 by pgexporter</li>
+              </ul>
+            </li>
+          
+            <li>
+              <h3><a href="/about/news/call-for-proposals-is-open-for-posette-an-event-for-postgres-2024-2806/">Call for Proposals is open for POSETTE: An Event for Postgres 2024</a></h3>
+              <ul class="meta">
+                <li><i class="far fa-clock"></i>&nbsp;2024-02-14 by Microsoft Azure</li>
+              </ul>
+            </li>
+          
+            <li>
               <h3><a href="/about/news/postgresql-162-156-1411-1314-and-1218-released-2807/">PostgreSQL 16.2, 15.6, 14.11, 13.14, and 12.18 Released!</a></h3>
               <ul class="meta">
                 <li><i class="far fa-clock"></i>&nbsp;2024-02-08 by PostgreSQL Global Development Group</li>
@@ -326,27 +347,6 @@
               <h3><a href="/about/news/cloudnativepg-1221-1213-and-1206-released-2805/">CloudNativePG 1.22.1, 1.21.3 and 1.20.6 Released!</a></h3>
               <ul class="meta">
                 <li><i class="far fa-clock"></i>&nbsp;2024-02-06 by The CloudNativePG Contributors</li>
-              </ul>
-            </li>
-          
-            <li>
-              <h3><a href="/about/news/swiss-pgday-2024-announcement-and-cfs-2803/">Swiss PGDay 2024: Announcement and CfS</a></h3>
-              <ul class="meta">
-                <li><i class="far fa-clock"></i>&nbsp;2024-02-06 by Swiss PostgreSQL Users Group</li>
-              </ul>
-            </li>
-          
-            <li>
-              <h3><a href="/about/news/pgconfbe-2024-call-for-papers-sponsors-2804/">PGConf.BE 2024: Call for Papers &amp; Sponsors</a></h3>
-              <ul class="meta">
-                <li><i class="far fa-clock"></i>&nbsp;2024-02-02 by UCLL</li>
-              </ul>
-            </li>
-          
-            <li>
-              <h3><a href="/about/news/pgbouncer-1220-released-2802/">PgBouncer 1.22.0 released</a></h3>
-              <ul class="meta">
-                <li><i class="far fa-clock"></i>&nbsp;2024-01-31 by PgBouncer</li>
               </ul>
             </li>
           
@@ -370,90 +370,90 @@
       
         <div class="col-md-4">
           <div class="text-center">
-            <h3><a href="https://postgr.es/p/6m0"> Hosting a set of Postgres Demo databases</a></h3>
+            <h3><a href="https://postgr.es/p/6mH"> SQL Optimization: a comprehensive developer’s guide</a></h3>
             <ul class="meta">
-              <li><i class="far fa-comments"></i>&nbsp;Ryan Lambert</li>
-              <li><i class="far fa-clock"></i>&nbsp;2024-02-10</li>
+              <li><i class="far fa-comments"></i>&nbsp;oded valin</li>
+              <li><i class="far fa-clock"></i>&nbsp;2024-02-19</li>
             </ul>
           </div>
         </div>
       
         <div class="col-md-4">
           <div class="text-center">
-            <h3><a href="https://postgr.es/p/6l_"> pgagroal-cli gains JSON output</a></h3>
+            <h3><a href="https://postgr.es/p/6mG"> Logging: What, Why and When</a></h3>
             <ul class="meta">
-              <li><i class="far fa-comments"></i>&nbsp;Luca Ferrari</li>
-              <li><i class="far fa-clock"></i>&nbsp;2024-02-10</li>
+              <li><i class="far fa-comments"></i>&nbsp;Henrietta Dombrovskaya</li>
+              <li><i class="far fa-clock"></i>&nbsp;2024-02-19</li>
             </ul>
           </div>
         </div>
       
         <div class="col-md-4">
           <div class="text-center">
-            <h3><a href="https://postgr.es/p/6l-"> Enhance PostgreSQL TLS Security with OCSP Stapling</a></h3>
+            <h3><a href="https://postgr.es/p/6mI"> Maintainable Podcast — Maintainable…Databases? 🎙️</a></h3>
             <ul class="meta">
-              <li><i class="far fa-comments"></i>&nbsp;David Z</li>
-              <li><i class="far fa-clock"></i>&nbsp;2024-02-09</li>
+              <li><i class="far fa-comments"></i>&nbsp;Andrew Atkinson</li>
+              <li><i class="far fa-clock"></i>&nbsp;2024-02-19</li>
             </ul>
           </div>
         </div>
       
         <div class="col-md-4">
           <div class="text-center">
-            <h3><a href="https://postgr.es/p/6lQ"> new extension pgmeminfo</a></h3>
+            <h3><a href="https://postgr.es/p/6mF"> Moving local settings for pg_hba.conf and postgresql.conf out of PGDATA</a></h3>
             <ul class="meta">
-              <li><i class="far fa-comments"></i>&nbsp;Pavel Stehule</li>
-              <li><i class="far fa-clock"></i>&nbsp;2024-02-08</li>
+              <li><i class="far fa-comments"></i>&nbsp;Dan Langille</li>
+              <li><i class="far fa-clock"></i>&nbsp;2024-02-18</li>
             </ul>
           </div>
         </div>
       
         <div class="col-md-4">
           <div class="text-center">
-            <h3><a href="https://postgr.es/p/6lP"> Learning about &quot;transqlate&quot; at PG Session 16</a></h3>
+            <h3><a href="https://postgr.es/p/6mB"> Selective Column Replication in PostgreSQL</a></h3>
             <ul class="meta">
-              <li><i class="far fa-comments"></i>&nbsp;Karen Jex</li>
-              <li><i class="far fa-clock"></i>&nbsp;2024-02-08</li>
+              <li><i class="far fa-comments"></i>&nbsp;semab tariq</li>
+              <li><i class="far fa-clock"></i>&nbsp;2024-02-16</li>
             </ul>
           </div>
         </div>
       
         <div class="col-md-4">
           <div class="text-center">
-            <h3><a href="https://postgr.es/p/6lO"> What’s new in the Postgres 16 query planner / optimizer</a></h3>
-            <ul class="meta">
-              <li><i class="far fa-comments"></i>&nbsp;David Rowley</li>
-              <li><i class="far fa-clock"></i>&nbsp;2024-02-08</li>
-            </ul>
-          </div>
-        </div>
-      
-        <div class="col-md-4">
-          <div class="text-center">
-            <h3><a href="https://postgr.es/p/6lL"> Waiting for PostgreSQL 17 – Add new COPY option SAVE_ERROR_TO / Rename </a></h3>
-            <ul class="meta">
-              <li><i class="far fa-comments"></i>&nbsp;Hubert &#x27;depesz&#x27; Lubaczewski</li>
-              <li><i class="far fa-clock"></i>&nbsp;2024-02-07</li>
-            </ul>
-          </div>
-        </div>
-      
-        <div class="col-md-4">
-          <div class="text-center">
-            <h3><a href="https://postgr.es/p/6lK"> Waiting for PostgreSQL 17 – Support identity columns in partitioned tab</a></h3>
-            <ul class="meta">
-              <li><i class="far fa-comments"></i>&nbsp;Hubert &#x27;depesz&#x27; Lubaczewski</li>
-              <li><i class="far fa-clock"></i>&nbsp;2024-02-07</li>
-            </ul>
-          </div>
-        </div>
-      
-        <div class="col-md-4">
-          <div class="text-center">
-            <h3><a href="https://postgr.es/p/6lM"> PostgreSQL February Meetup in Berlin</a></h3>
+            <h3><a href="https://postgr.es/p/6mE"> FOSDEM and FOSDEM PGDay 2024 Review</a></h3>
             <ul class="meta">
               <li><i class="far fa-comments"></i>&nbsp;Andreas Scherbaum</li>
-              <li><i class="far fa-clock"></i>&nbsp;2024-02-07</li>
+              <li><i class="far fa-clock"></i>&nbsp;2024-02-15</li>
+            </ul>
+          </div>
+        </div>
+      
+        <div class="col-md-4">
+          <div class="text-center">
+            <h3><a href="https://postgr.es/p/6mz"> Functions and Procedures: Learning PostgreSQL with Grant</a></h3>
+            <ul class="meta">
+              <li><i class="far fa-comments"></i>&nbsp;Grant Fritchey</li>
+              <li><i class="far fa-clock"></i>&nbsp;2024-02-15</li>
+            </ul>
+          </div>
+        </div>
+      
+        <div class="col-md-4">
+          <div class="text-center">
+            <h3><a href="https://postgr.es/p/6my"> PgBouncer: The one with prepared statements</a></h3>
+            <ul class="meta">
+              <li><i class="far fa-comments"></i>&nbsp;Raouf  Chebri</li>
+              <li><i class="far fa-clock"></i>&nbsp;2024-02-15</li>
+            </ul>
+          </div>
+        </div>
+      
+        <div class="col-md-4">
+          <div class="text-center">
+            <h3><a href="https://postgr.es/p/6mr"> Postgres to ClickHouse Real time Replication using PeerDB</a></h3>
+            <ul class="meta">
+              <li><i class="far fa-comments"></i>&nbsp;Sai Srirampur</li>
+              <li><i class="far fa-clock"></i>&nbsp;2024-02-14</li>
             </ul>
           </div>
         </div>
