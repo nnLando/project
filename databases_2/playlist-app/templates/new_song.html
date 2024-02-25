@@ -1,0 +1,30 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+<form method="post" class="needs-validation" >
+    {{ form.csrf_token }}
+    <div class="mb-3">
+        <label for="title" class="form-label">Title</label>
+        <input type="text" class="form-control" name="title" id="title"
+               placeholder="Song title"
+               value="{{ request.form['title'] }}" required>
+        <div class="invalid-feedback">
+            Please provide a Song title.
+        </div>
+    </div>
+
+    <div class="mb-3">
+        <label for="content" class="form-label"> Artist </label>
+        <textarea class="form-control" name="artist" id="content"
+                  placeholder="Artist Name"
+                  rows="15" required>{{ request.form['artist'] }}</textarea>
+        <div class="invalid-feedback">
+            Please provide Artist Name.
+        </div>
+    </div>
+    
+    <button type="submit" class="btn btn-primary mb-3">Add Song</button>
+</form>
+
+{% endblock %}

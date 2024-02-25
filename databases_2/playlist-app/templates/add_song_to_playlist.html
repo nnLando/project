@@ -1,0 +1,22 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+<h1>Add a song to {{ playlist.name }}</h1>
+
+<form method="post" class="needs-validation" action="{{ url_for('add_song_to_playlist', playlist_id=playlist.id) }}">
+    {{ form.csrf_token }}
+
+    <div>
+        <select class="form-select" name="song">
+            <option selected disabled>Choose a song...</option>
+            {% for song_id, song_title in form.song.choices %}
+                <option value="{{ song_id }}">{{ song_title }}</option>
+            {% endfor %}
+        </select>
+    </div>
+    
+    <button type="submit" class="btn btn-primary mb-3">Add Song</button>
+</form>
+
+{% endblock %}
