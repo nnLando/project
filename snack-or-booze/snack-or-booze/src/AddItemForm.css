@@ -1,0 +1,54 @@
+/* AddItemForm.css */
+.form-container {
+    background-color: #101010d1;
+    color: #f0f2f5;
+    border: 20px solid rgba(16, 16, 16, 0.63);
+    box-shadow: inset 0 0 0 2px #ffffff;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .form-label {
+    color: white;
+    font-weight: bold;
+  }
+  
+  .form-input {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid #ffffff;
+    background-color: transparent;
+    color: white;
+  }
+  
+  .form-button {
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  .form-button:hover {
+    background-color: #000000;
+    color: white;
+  }
+  
+  .form-cancel-button {
+    background-color: #6c757d;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin-left: 10px;
+    cursor: pointer;
+  }
+  
+  .form-cancel-button:hover {
+    background-color: #495057;
+  }
+  

@@ -1,0 +1,21 @@
+/* Home.css */
+.custom-snack {
+    background-color: #000;
+    color: #fff;
+  }
+  
+  .custom-snack:hover {
+    background-color: #fff;
+    color: #000;
+  }
+  
+  .custom-drink {
+    background-color: #fff;
+    color: #000;
+  }
+  
+  .custom-drink:hover {
+    background-color: #000;
+    color: #fff;
+  }
+  

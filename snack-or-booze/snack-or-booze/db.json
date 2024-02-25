@@ -1,0 +1,90 @@
+{
+  "drinks": [
+    {
+      "id": "martini",
+      "name": "Martini",
+      "description": "An ice-cold, refreshing classic.",
+      "recipe": "Mix 3 parts vodka & 1 part dry vermouth.",
+      "serve": "Serve very cold, straight up."
+    },
+    {
+      "name": "drink2",
+      "description": "two",
+      "recipe": "two",
+      "serve": "two",
+      "id": "y7d3rhI"
+    },
+    {
+      "name": "Fanta",
+      "description": "Fanta Orange is a tongue-tingling & delicious sparkling orange fruit drink that surprises with its intense and refreshing orange taste. This playful fizzy fruit flavoured soda, delivers a bold and bubbly mouthfeel and naturally stimulates senses",
+      "recipe": "Carbonated Water, Sugar, Acidifier: Citric Acid, Emulsifier: Gum Arabic, Preservative: Potassium Sorbate, Acidity Regulator: Sodium Citrate, Caffeine, Natural Identical Citrus Flavors, Antioxidants: Ascorbic Acid and Calcium Disodium (EDTA), Colour: Tartrazine*",
+      "serve": "Serve very cold, straight up",
+      "id": "wkvruPJ"
+    }
+  ],
+  "snacks": [
+    {
+      "id": "nachos",
+      "name": "Nachos",
+      "description": "An American classic!",
+      "recipe": "Cover expensive, organic tortilla chips with Cheez Whiz.",
+      "serve": "Serve in a hand-thrown ceramic bowl, garnished with canned black olives"
+    },
+    {
+      "name": "snack2",
+      "description": "two",
+      "recipe": "two",
+      "serve": "two",
+      "id": "shL270w"
+    },
+    {
+      "name": "snack3",
+      "description": "three",
+      "recipe": "three",
+      "serve": "three",
+      "id": "yt-jt8z"
+    },
+    {
+      "name": "Pasta crunchy",
+      "description": "delicious",
+      "recipe": "abc",
+      "serve": "good serving",
+      "id": "8D9jgIQ"
+    },
+    {
+      "name": "Snack4",
+      "description": "descriptions",
+      "recipe": "good receipe",
+      "serve": "serving is amazing",
+      "id": "mEhIOwq"
+    },
+    {
+      "name": "Avocado Toast with Poached Egg",
+      "description": "A nutritious and satisfying snack featuring creamy avocado on toasted whole-grain bread, topped with a perfectly poached egg.",
+      "recipe": "Ingredients:  1 ripe avocado 2 slices of whole-grain bread 2 eggs Salt and pepper to taste Optional toppings: chili flakes, feta cheese, or microgreens Instructions:  Toast the whole-grain bread slices. Mash the ripe avocado and spread it evenly on the toasted bread. Poach the eggs to your liking and place them on top of the mashed avocado. Season with salt and pepper and add any optional toppings you prefer.",
+      "serve": "Enjoy this delicious and nutritious snack for breakfast or as a midday pick-me-up.",
+      "id": "OM-ohLd"
+    },
+    {
+      "name": "juice ",
+      "description": "drink",
+      "recipe": "sugar",
+      "serve": "2",
+      "id": "4Ml3T1g"
+    },
+    {
+      "name": "chips",
+      "description": "crunchy",
+      "recipe": "potato",
+      "serve": "3",
+      "id": "00IGP30"
+    },
+    {
+      "name": "chips",
+      "description": "crunchy",
+      "recipe": "potato",
+      "serve": "3",
+      "id": "onoL0c9"
+    }
+  ]
+}
