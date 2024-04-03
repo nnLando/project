@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta name="navin purbey">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css"
+    integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="design.css">
+
+  <title>Meme Generator</title>
+  <script defer src="https://use.fontawesome.com/releases/v5.0.4/js/all.js"></script>
+</head>
+
+<body>
+  <div class="backgroud-blue dark-nav">
+    <header class="container">
+      <div class="container mx-auto text-center mb-lg-5 title">
+        <h1 class="text-info" style="background-color: turquoise;">Memeception</h1>
+        <h2 style="background-color: pink;">Let the memes commence!</h2>
+      </div>
+      <div class="steps">
+        <p></p>
+
+      </div>
+
+    </header>
+
+    <section class="container">
+      <form id="meme-form">
+       
+        <div class="group-form row mb-5">
+          <label for="link-to-pic" class="col-md-2 col-form-label">Link Here: </label>
+          <div class="col-md-10">
+            <input type="url" class="form-control" id="uploaded-img" placeholder="link here" required>
+          </div>
+
+        </div>
+        
+        <div class="group-form row mb-lg-5">
+          <label for="text-on-top" class="col-md-2 col-form-label">Top Text:</label>
+          <div class="col-md-10">
+            <input type="text" class="form-control" id="text-top" placeholder="type here">
+          </div>
+        </div>
+        
+        <div class="group-form row mb-5">
+          <label for="text-on-bottom" class="col-md-2 col-form-label">Bottom Text: </label>
+          <div class="col-md-10">
+            <input type="text" class="form-control" id="text-bottom"
+              placeholder="type here">
+          </div>
+        </div>
+        <div class="group-form row mb-5">
+          <label class="col-md-2 col-form-label">&nbsp;</label>
+          <div class="col-md-2">
+            <button class="generate-btn">spawn..</button>
+          </div>
+        </div>
+
+      </form>
+      <div class="line"></div>
+    </section>
+  </div>
+
+  <section class="meme-gallery">
+
+    <ul class="gallery">
+    </ul>
+
+
+  </section>
+  <footer>
+    <div class="container-fluid dark-nav footer">
+      <p style="font-size: 50px;" &#129305>Meme your way through the hard times. </p>
+      <span style="font-size:100px;">&#129311;</span>
+
+    </div>
+
+  </footer>
+
+ 
+  <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js"
+    integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js"
+    integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb"
+    crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js"
+    integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn"
+    crossorigin="anonymous"></script>
+  <script src="script.js"></script>
+
+</body>
+
+</html>
