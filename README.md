@@ -1,1 +1,1 @@
-# UMGCBOOTCAMP
+# Unfinished thoughts and projects. WIP
